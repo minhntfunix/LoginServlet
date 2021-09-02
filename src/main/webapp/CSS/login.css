@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+.body {
+	padding-top: 0;
+}
+
+.leftcolumn {
+	padding: 10%;
+}
+
+.container {
+	border: 10px solid gray;
+}
+
+.col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	border-radius: 50%;
+}
+
+input[type=text], input[type=password] {
+	width: 80%;
+}
+
+button {
+	background-color: limegreen;
+	color: white;
+	margin-top: 1%;
+	width: 50%;
+	color: white;
+	padding: 0.5%;
+}
+
+footer {
+	background-color: lightgray;
+	padding: 1% 0;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+.psw {
+	margin-top: 2%;
+	padding-right: 2%;
+}
+
+.welcomeback {
+	padding: 25%;
+	color: white;
+	background-color: #343a40;
+	height: 100%;
+}

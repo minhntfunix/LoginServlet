@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgray;
+	color: black;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.leftcolumn {
+	height: 10%;
+	float: left;
+	width: 75%;
+}
+
+.productimg {
+	width: 20%;
+	height: 15%;
+	display: block;
+}
+
+.product, .cart, .banner {
+	background-color: white;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+img {
+	width: 100%;
+}
+
+.cartimg {
+	height: 50px;
+	background-color: gray;
+}
+
+.bannerimg {
+	width: 20%;
+}
+
+.rightcolumn {
+	height: 10%;
+	float: right;
+	width: 25%;
+	padding-left: 1%;
+}
+
+.banner {
+	padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+	.leftcolumn, .rightcolumn {
+		float: none;
+		width: 100%;
+	}
+}
